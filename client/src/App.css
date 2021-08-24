@@ -246,12 +246,15 @@ input:focus, textarea:focus{
 }
 
 @media only screen and (max-width: 800px){
+  body{
+    margin: 0
+  }
   .btn-add{
     font-size:0.8rem
   }
   .essay{
     width:100%;
-    margin: 0
+    margin: 15px 0
   }
   .time-stamp{
     font-size:0.7rem
@@ -283,7 +286,10 @@ input:focus, textarea:focus{
 }
 
 .add-essay-form{
-    margin: 20px auto;
+    margin: 20px 0;
+}
+form{
+  margin: 0;
 }
 form > *{
     margin: 20px;
